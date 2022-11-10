@@ -58,7 +58,6 @@ class View:
         var2.set(10)
 
         def combo_values_input():
-            # Vladislav Evstratov
             # We need this method for generating a list of column names
             # We return the list of column names
 

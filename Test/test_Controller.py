@@ -1,8 +1,3 @@
-"""
-    Assignment 4
-    Vladislav Evstratov
-    Student number: 040982458
-"""
 
 #   The pandastable library provides a table widget for Tkinter with plotting and data manipulation functionality.
 import pandas as pd
@@ -13,7 +8,7 @@ from Controller import Controller
 class TestController(TestCase):
     # one row deletion test
     def test_delete_one_record(self):
-        print("Vladislav Evstratov Unit-Test")
+        print("Vlad Evans Unit-Test")
         # here we create an empty application instance
         app = None
         logic = Controller(app, 10)

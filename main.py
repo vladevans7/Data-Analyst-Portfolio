@@ -9,7 +9,7 @@ from View import View
 # Start the program and all our classes
 
 appWin = Tk()                   # We are creating a new window
-appWin.title('Assignment 4 Vladislav Evstratov 040982458')  # Name of the window
+appWin.title('Vlad Evans Vaccination Coverage')  # Name of the window
 
 table = Model(appWin)           # We need this for loading and unloading tables
 n_rows = 100                    # Default number of rows to load

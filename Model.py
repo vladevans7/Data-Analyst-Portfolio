@@ -97,7 +97,6 @@ class FileCSVData(DataManipulation):
                 msg.showerror('Error in opening file', e)
 
 
-# Vladislav Evstratov
 # Here is our class for managing input and output.
 class DataBaseTable(DataManipulation):
     def __init__(self, file_name):
@@ -115,7 +114,6 @@ class DataBaseTable(DataManipulation):
             logic.df.to_sql("table_db", sqlite_connection, if_exists='replace')
             sqlite_connection.close()
 
-        # Vladislav Evstratov
         # Here we try to save to a file
 
     def get_table(self, logic):
